@@ -7,6 +7,7 @@ using namespace std;
  * 快速排序 
  */
 
+// 基础版的分块函数
 int mySplit(int arr[],int startIndex,int endIndex)
 {
     int i = startIndex, j = endIndex,mid = 0;
@@ -25,6 +26,7 @@ int mySplit(int arr[],int startIndex,int endIndex)
     return i;
 }
 
+// 优化版分块函数
 int mySplit02(int arr[],int low,int high)
 {
     int i = low+1,j = high;
