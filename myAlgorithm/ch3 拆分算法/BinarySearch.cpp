@@ -23,6 +23,7 @@ int binarySearch(int arr[],int length,int num)
 
 int main()
 {
+    // 索引         0  1  2  3   4  5   6   7 8 9
     int arr[10] = {15,26,85,232,65,874,365,24,3,6};
     int result = binarySearch(arr,10,24);
     cout << result << endl;
