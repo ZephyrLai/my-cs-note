@@ -1,5 +1,4 @@
-<script type="text/javascript"
-       src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
 ### 一、时间复杂度
 1. 如下代码
