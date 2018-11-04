@@ -3,11 +3,8 @@
 
 using namespace std;
 
-/*
-合并排序：
-1.分解
-2.治理
-3.合并
+/**
+合并排序
 */
 void merge(int arr[],int low,int mid,int high)
 {
